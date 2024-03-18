@@ -6,7 +6,7 @@ public:
         // Iterate through each character in the string
         for (char c : s) {
             if (i > 0 && s[i - 1] == c) {
-                // If the current character is equal to the previous character in the result string, skip it
+                // If  current character is equal to the previous character in the result string, skip it
                 // This effectively removes the adjacent duplicate characters
                 --i; // Move back one position in the result string
             } else {
