@@ -30,18 +30,12 @@ bool checkPalindrome(string s)
         if(ans==32 || ans==-32 || ans==0 )
 
         {
- 
-
             i++;
-
             e--;
 
         }
 
-        else
-
-        {
-
+        else {
             return false;
 
         }
