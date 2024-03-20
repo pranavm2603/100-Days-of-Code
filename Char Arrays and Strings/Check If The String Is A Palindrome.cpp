@@ -20,8 +20,7 @@ bool checkPalindrome(string s)
         while(i<e && !isalnum(s[e]))
 
         {
-
-            e--;
+           e--;
 
         }
 
