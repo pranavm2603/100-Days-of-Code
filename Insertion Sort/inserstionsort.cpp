@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
 void insertionSort(int n, vector<int> &arr){
     
     for(int i=1;i<n;i++){
